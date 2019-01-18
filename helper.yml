@@ -1,0 +1,10 @@
+name: File Browser
+behaviors:
+  - filename: file_browser_behavior.livecodescript
+ui:
+  - filename: templates/file_browser_row_templates.livecode
+    encrypt: false
+libraries:
+  - filename: file_browser_ide_library.livecodescript
+    distribute: false
+dependencies: DataView Tree

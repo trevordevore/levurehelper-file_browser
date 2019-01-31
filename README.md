@@ -37,7 +37,6 @@ on mouseUp
 	answer folder "Select folder to display:"
 	if it is not empty then
 		set the dvRootFolder of group "File Browser DataView" to it
-		dispatch "RenderView" to group "File Browser DataView"
 	end if
 end mouseUp
 ```

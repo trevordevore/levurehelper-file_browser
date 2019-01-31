@@ -16,7 +16,6 @@ Example:
 answer folder "Select folder to display:"
 if it is not empty then
   set the dvRootFolder of group "FileBrowser" to it
-  dispatch "RenderView" to group "FileBrowser"
 end if
 */
 setProp dvRootFolder pFolder

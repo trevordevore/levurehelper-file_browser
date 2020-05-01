@@ -7,4 +7,6 @@ ui:
 libraries:
   - filename: file_browser_ide_library.livecodescript
     distribute: false
+package folders:
+  - filename: templates
 dependencies: DataView Tree
